@@ -25,7 +25,7 @@ Users should be able to:
 
 ## Links
 
-- Live Site URL: [Solution Hosted using GitHub Pages](https://marvin-figueroa.github.io/results-summary-component/)
+- Live Site URL: [Solution Hosted using Netlify](https://endearing-faun-e1792e.netlify.app/)
 
 ## Built with
 
