@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-hanken md:h-screen sm:grid place-items-center">
+    <main
+      class="flex flex-col md:flex-row sm:shadow-2xl md:rounded-3xl overflow-hidden">
+      <section
+        class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-3xl py-6 px-10 text-center md:w-1/2 sm:rounded-3xl">
+        <h2 class="text-light-lavender font-medium mb-5">Your Result</h2>
+        <div
+          class="bg-gradient-to-b to-persian-blue from-violet-blue rounded-full w-52 h-52 flex flex-col mx-auto justify-center items-center">
+          <p class="font-bold text-7xl text-white">76</p>
+          <p class="text-gray-400 font-medium text-lg">of 100</p>
+        </div>
+        <h2 class="text-white font-bold text-lg mb-2">Great</h2>
+        <p class="text-light-lavender text-sm">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="flex flex-col gap-5 p-7 md:w-1/2">
+        <h2 class="text-dark-gray-blue font-bold">Summary</h2>
+        <div class="flex gap-2 bg-light-red/5 p-3 rounded-lg">
+          <img src="./assets/images/icon-reaction.svg" alt="thunder icon" />
+          <p class="text-light-red font-semibold">Reaction</p>
+          <p class="grow text-end font-bold text-gray-400">
+            <span class="text-dark-gray-blue">80</span> / 100
+          </p>
+        </div>
+        <div class="flex gap-2 bg-orangey-yellow/5 p-3 rounded-lg">
+          <img src="./assets/images/icon-memory.svg" alt="brain icon" />
+          <p class="text-orangey-yellow font-semibold">Memory</p>
+          <p class="grow text-end font-bold text-gray-400">
+            <span class="text-dark-gray-blue">92</span> / 100
+          </p>
+        </div>
+        <div class="flex gap-2 bg-green-teal/5 p-3 rounded-lg">
+          <img src="./assets/images/icon-verbal.svg" alt="chat globe icon" />
+          <p class="text-green-teal font-semibold">Verbal</p>
+          <p class="grow text-end font-bold text-gray-400">
+            <span class="text-dark-gray-blue">61</span> / 100
+          </p>
+        </div>
+        <div class="flex gap-2 bg-cobalt-blue/5 p-3 rounded-lg">
+          <img src="./assets/images/icon-visual.svg" alt="eye icon" />
+          <p class="text-cobalt-blue font-semibold">Visual</p>
+          <p class="grow text-end font-bold text-gray-400">
+            <span class="text-dark-gray-blue">72</span> / 100
+          </p>
+        </div>
+
+        <a
+          class="bg-dark-gray-blue text-white font-medium text-md py-3 block rounded-full text-center hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue"
+          href="#"
+          >Continue</a
+        >
+      </section>
+    </main>
+  </body>
+</html>
+
